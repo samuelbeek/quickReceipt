@@ -13,6 +13,17 @@
 		7E317112194B06CF0008E0B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E317110194B06CF0008E0B1 /* Main.storyboard */; };
 		7E317114194B06CF0008E0B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E317113194B06CF0008E0B1 /* Images.xcassets */; };
 		7E317120194B06CF0008E0B1 /* quickReceiptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E31711F194B06CF0008E0B1 /* quickReceiptTests.swift */; };
+		7E31712A194B090B0008E0B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E317129194B090B0008E0B1 /* CoreGraphics.framework */; };
+		7E31712C194B09170008E0B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E31712B194B09170008E0B1 /* Foundation.framework */; };
+		7E31712E194B09220008E0B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E31712D194B09220008E0B1 /* UIKit.framework */; };
+		7E317132194B1CCC0008E0B1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E317131194B1CCC0008E0B1 /* CFNetwork.framework */; };
+		7E3174C7194BCF370008E0B1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3174C6194BCF370008E0B1 /* Security.framework */; };
+		7E3174C9194BCF410008E0B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3174C8194BCF410008E0B1 /* SystemConfiguration.framework */; };
+		7E3174CB194BCF470008E0B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3174CA194BCF470008E0B1 /* QuartzCore.framework */; };
+		7E3174CD194BCF520008E0B1 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3174CC194BCF520008E0B1 /* libc++.dylib */; };
+		7E3174CF194BCF580008E0B1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3174CE194BCF580008E0B1 /* libz.dylib */; };
+		7ECD3904195876FA00ABCD74 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD3903195876FA00ABCD74 /* AVFoundation.framework */; };
+		7EDACF231958500100BE7BDF /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDACF221958500100BE7BDF /* DropboxSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,18 @@
 		7E317119194B06CF0008E0B1 /* quickReceiptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickReceiptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E31711E194B06CF0008E0B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E31711F194B06CF0008E0B1 /* quickReceiptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickReceiptTests.swift; sourceTree = "<group>"; };
+		7E317129194B090B0008E0B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E31712B194B09170008E0B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E31712D194B09220008E0B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E317130194B1B740008E0B1 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		7E317131194B1CCC0008E0B1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7E3174C6194BCF370008E0B1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7E3174C8194BCF410008E0B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7E3174CA194BCF470008E0B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E3174CC194BCF520008E0B1 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		7E3174CE194BCF580008E0B1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7ECD3903195876FA00ABCD74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7EDACF221958500100BE7BDF /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECD3904195876FA00ABCD74 /* AVFoundation.framework in Frameworks */,
+				7E3174CF194BCF580008E0B1 /* libz.dylib in Frameworks */,
+				7E3174CD194BCF520008E0B1 /* libc++.dylib in Frameworks */,
+				7E3174CB194BCF470008E0B1 /* QuartzCore.framework in Frameworks */,
+				7E3174C9194BCF410008E0B1 /* SystemConfiguration.framework in Frameworks */,
+				7E3174C7194BCF370008E0B1 /* Security.framework in Frameworks */,
+				7E31712E194B09220008E0B1 /* UIKit.framework in Frameworks */,
+				7E31712C194B09170008E0B1 /* Foundation.framework in Frameworks */,
+				7E317132194B1CCC0008E0B1 /* CFNetwork.framework in Frameworks */,
+				7EDACF231958500100BE7BDF /* DropboxSDK.framework in Frameworks */,
+				7E31712A194B090B0008E0B1 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +93,7 @@
 		7E3170FB194B06CF0008E0B1 = {
 			isa = PBXGroup;
 			children = (
+				7E31712F194B092A0008E0B1 /* Frameworks */,
 				7E317106194B06CF0008E0B1 /* quickReceipt */,
 				7E31711C194B06CF0008E0B1 /* quickReceiptTests */,
 				7E317105194B06CF0008E0B1 /* Products */,
@@ -83,6 +118,7 @@
 				7E317113194B06CF0008E0B1 /* Images.xcassets */,
 				7E31710B194B06CF0008E0B1 /* quickReceipt.xcdatamodeld */,
 				7E317107194B06CF0008E0B1 /* Supporting Files */,
+				7E317130194B1B740008E0B1 /* bridge.h */,
 			);
 			path = quickReceipt;
 			sourceTree = "<group>";
@@ -110,6 +146,24 @@
 				7E31711E194B06CF0008E0B1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E31712F194B092A0008E0B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ECD3903195876FA00ABCD74 /* AVFoundation.framework */,
+				7EDACF221958500100BE7BDF /* DropboxSDK.framework */,
+				7E3174CE194BCF580008E0B1 /* libz.dylib */,
+				7E3174CC194BCF520008E0B1 /* libc++.dylib */,
+				7E3174CA194BCF470008E0B1 /* QuartzCore.framework */,
+				7E3174C8194BCF410008E0B1 /* SystemConfiguration.framework */,
+				7E3174C6194BCF370008E0B1 /* Security.framework */,
+				7E317131194B1CCC0008E0B1 /* CFNetwork.framework */,
+				7E31712D194B09220008E0B1 /* UIKit.framework */,
+				7E31712B194B09170008E0B1 /* Foundation.framework */,
+				7E317129194B090B0008E0B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -317,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -329,9 +383,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = quickReceipt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = quickReceipt/bridge.h;
 			};
 			name = Debug;
 		};
@@ -340,9 +400,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = quickReceipt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = quickReceipt/bridge.h;
 			};
 			name = Release;
 		};
@@ -401,6 +467,7 @@
 				7E317125194B06CF0008E0B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E317126194B06CF0008E0B1 /* Build configuration list for PBXNativeTarget "quickReceiptTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +476,7 @@
 				7E317128194B06CF0008E0B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

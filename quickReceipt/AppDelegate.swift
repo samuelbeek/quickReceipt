@@ -16,11 +16,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
-        // Override point for customization after application launch.
+        
+        var dbSession: DBSession = DBSession(appKey: "n85g9ub4oho6bb8", appSecret: "f1v4ar8fwp9ujdo", root:kDBRootDropbox)
+        DBSession.setSharedSession(dbSession)
+
         return true
+    
     }
 
-    func applicationWillResignActive(application: UIApplication) {
+    
+    func application(application: UIApplication, handleOpenURL url:NSURL) -> Bool{
+    
+        if(DBSession.sharedSession().handleOpenURL(url)){
+            if(DBSession.sharedSession().isLinked()){
+                println("app is linked")
+            }
+            
+            return true
+        }
+        
+        
+        return false
+    }
+
+
+    func applicationWillResignActive(applicastion: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
