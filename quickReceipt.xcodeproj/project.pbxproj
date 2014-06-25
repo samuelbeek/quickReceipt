@@ -10,7 +10,6 @@
 		7E31710A194B06CF0008E0B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E317109194B06CF0008E0B1 /* AppDelegate.swift */; };
 		7E31710D194B06CF0008E0B1 /* quickReceipt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E31710B194B06CF0008E0B1 /* quickReceipt.xcdatamodeld */; };
 		7E31710F194B06CF0008E0B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E31710E194B06CF0008E0B1 /* ViewController.swift */; };
-		7E317112194B06CF0008E0B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E317110194B06CF0008E0B1 /* Main.storyboard */; };
 		7E317114194B06CF0008E0B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E317113194B06CF0008E0B1 /* Images.xcassets */; };
 		7E317120194B06CF0008E0B1 /* quickReceiptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E31711F194B06CF0008E0B1 /* quickReceiptTests.swift */; };
 		7E31712A194B090B0008E0B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E317129194B090B0008E0B1 /* CoreGraphics.framework */; };
@@ -24,6 +23,12 @@
 		7E3174CF194BCF580008E0B1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3174CE194BCF580008E0B1 /* libz.dylib */; };
 		7ECD3904195876FA00ABCD74 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD3903195876FA00ABCD74 /* AVFoundation.framework */; };
 		7EDACF231958500100BE7BDF /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDACF221958500100BE7BDF /* DropboxSDK.framework */; };
+		7EFE5B8F195AE869003B801F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFE5B8E195AE869003B801F /* CoreImage.framework */; };
+		7EFE5B91195AE877003B801F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFE5B90195AE877003B801F /* AssetsLibrary.framework */; };
+		7EFE5B93195AE882003B801F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFE5B92195AE882003B801F /* CoreMedia.framework */; };
+		7EFE5B95195AE88B003B801F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFE5B94195AE88B003B801F /* ImageIO.framework */; };
+		7EFE5B97195AE895003B801F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFE5B96195AE895003B801F /* CoreVideo.framework */; };
+		7EFE5B9A195AEE70003B801F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFE5B99195AEE70003B801F /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +47,6 @@
 		7E317109194B06CF0008E0B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E31710C194B06CF0008E0B1 /* quickReceipt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = quickReceipt.xcdatamodel; sourceTree = "<group>"; };
 		7E31710E194B06CF0008E0B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E317111194B06CF0008E0B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E317113194B06CF0008E0B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E317119194B06CF0008E0B1 /* quickReceiptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickReceiptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E31711E194B06CF0008E0B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +63,12 @@
 		7E3174CE194BCF580008E0B1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7ECD3903195876FA00ABCD74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7EDACF221958500100BE7BDF /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		7EFE5B8E195AE869003B801F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		7EFE5B90195AE877003B801F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7EFE5B92195AE882003B801F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7EFE5B94195AE88B003B801F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7EFE5B96195AE895003B801F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7EFE5B99195AEE70003B801F /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EFE5B97195AE895003B801F /* CoreVideo.framework in Frameworks */,
+				7EFE5B95195AE88B003B801F /* ImageIO.framework in Frameworks */,
+				7EFE5B93195AE882003B801F /* CoreMedia.framework in Frameworks */,
+				7EFE5B91195AE877003B801F /* AssetsLibrary.framework in Frameworks */,
+				7EFE5B8F195AE869003B801F /* CoreImage.framework in Frameworks */,
 				7ECD3904195876FA00ABCD74 /* AVFoundation.framework in Frameworks */,
 				7E3174CF194BCF580008E0B1 /* libz.dylib in Frameworks */,
 				7E3174CD194BCF520008E0B1 /* libc++.dylib in Frameworks */,
@@ -112,9 +127,9 @@
 		7E317106194B06CF0008E0B1 /* quickReceipt */ = {
 			isa = PBXGroup;
 			children = (
+				7EFE5B99195AEE70003B801F /* MainStoryboard.storyboard */,
 				7E317109194B06CF0008E0B1 /* AppDelegate.swift */,
 				7E31710E194B06CF0008E0B1 /* ViewController.swift */,
-				7E317110194B06CF0008E0B1 /* Main.storyboard */,
 				7E317113194B06CF0008E0B1 /* Images.xcassets */,
 				7E31710B194B06CF0008E0B1 /* quickReceipt.xcdatamodeld */,
 				7E317107194B06CF0008E0B1 /* Supporting Files */,
@@ -151,6 +166,11 @@
 		7E31712F194B092A0008E0B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EFE5B96195AE895003B801F /* CoreVideo.framework */,
+				7EFE5B94195AE88B003B801F /* ImageIO.framework */,
+				7EFE5B92195AE882003B801F /* CoreMedia.framework */,
+				7EFE5B90195AE877003B801F /* AssetsLibrary.framework */,
+				7EFE5B8E195AE869003B801F /* CoreImage.framework */,
 				7ECD3903195876FA00ABCD74 /* AVFoundation.framework */,
 				7EDACF221958500100BE7BDF /* DropboxSDK.framework */,
 				7E3174CE194BCF580008E0B1 /* libz.dylib */,
@@ -246,7 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E317112194B06CF0008E0B1 /* Main.storyboard in Resources */,
+				7EFE5B9A195AEE70003B801F /* MainStoryboard.storyboard in Resources */,
 				7E317114194B06CF0008E0B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,17 +308,6 @@
 			targetProxy = 7E31711A194B06CF0008E0B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7E317110194B06CF0008E0B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E317111194B06CF0008E0B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7E317121194B06CF0008E0B1 /* Debug */ = {
@@ -388,10 +397,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = quickReceipt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = quickReceipt/bridge.h;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -405,10 +416,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = quickReceipt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = quickReceipt/bridge.h;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
